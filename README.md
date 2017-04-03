@@ -4,7 +4,7 @@
 
 Thành viên:
 * [x] **1312415** Trần Thanh Phán (1312415@github.com)
-* [ ] **MSSV2** Tên sinh viên 2 (tên tài khoản github)
+* [x] **MSSV2** Tên sinh viên 2 (tên tài khoản github)
 
 URL: **Link github page**
 
