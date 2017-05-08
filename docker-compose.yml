@@ -1,0 +1,15 @@
+version: '2'
+services:
+  db:
+    container_name: db
+    ports:
+      - "8080:8080"
+      - "28015:28015"
+    image: rethinkdb
+    command: "rethinkdb --bind all --join db2:29015"
+    links:
+      - db2
+  db2:
+    container_name: db2
+    image: rethinkdb
+  
